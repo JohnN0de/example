@@ -1,0 +1,104 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@drawable/background_splash</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="SearchView">
+        <item name="android:background">@drawable/background_radius_4_gray</item>
+        <item name="android:radius">40dp</item>
+        <item name="queryBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:radius">4dp</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">11dp</item>
+        <item name="android:minHeight">44dp</item>
+    </style>
+
+    <style name="Button.Blue">
+        <item name="android:textAppearance">@style/Roboto.Bold</item>
+        <item name="android:backgroundTint">@color/colorBlueAccent</item>
+    </style>
+
+    <style name="Button.Green">
+        <item name="android:radius">8dp</item>
+        <item name="android:textAppearance">@style/Roboto.Bold.Small</item>
+        <item name="android:backgroundTint">@color/background_green</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="Roboto">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="Roboto.Simple">
+        <item name="android:textSize">17sp</item>
+        <item name="lineHeight">26dp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="Roboto.Blue">
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:textColor">@color/colorBlueAccent</item>
+    </style>
+
+    <style name="Roboto.Blue.Bold">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:textColor">@color/colorBlueAccent</item>
+    </style>
+
+    <style name="Roboto.Simple.Medium">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Roboto.Bold">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Roboto.Bold.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">22dp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="no_internet">Нет подключения к интернету</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="errorTryRepeat">Что-то пошло не так. Попробуйте еще раз</string>
+
+    <string name="app_name">CheckDomain</string>
+    <string name="search">Поиск</string>
+    <string name="check_domain_title">Здесь вы можете проверить доступность доменов для регистрации</string>
+    <string name="check_domain">Проверить домен</string>
+    <string name="contact_us_mail">info@timeweb.ru</string>
+    <string name="contact_us">Связаться с нами</string>
+    <string name="whyis">Whois</string>
+    <string name="busy">Занят</string>
+    <string name="rubs_form">%.00f ₽</string>
+    <string name="year_single_form">%d год</string>
+    <string name="year_few_form">%d года</string>
+    <string name="year_many_form">%d лет</string>
+    <string name="buy">Купить</string>
+    <string name="navigate_to_cart_form">Перейти к корзине (%d)</string>
+    <string name="cart_title_form">Корзина (%d)</string>
+    <string name="contacts_data">Контактные данные</string>
+    <string name="domain_removed_from_cart">Домен удалён из корзины</string>
+    <string name="noAppAvailable">Нет доступных приложений</string>
+    <string name="bad_domain_name">Неверно указан домен</string>
+</resources>

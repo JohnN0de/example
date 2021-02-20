@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/checkDomainFragment">
+
+<fragment
+    android:id="@+id/checkDomainFragment"
+    android:name="com.timeweb.checkdomain.presentation.check.CheckDomainFragment"
+    tools:layout="@layout/fragment_check_domain">
+    <action
+        android:id="@+id/action_checkDomainFragment_to_cartFragment"
+        app:destination="@id/cartFragment" />
+    <action
+        android:id="@+id/action_checkDomainFragment_to_profileFragment"
+        app:destination="@id/profileFragment" />
+</fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.timeweb.checkdomain.presentation.cart.CartFragment"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cartFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.timeweb.checkdomain.presentation.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
